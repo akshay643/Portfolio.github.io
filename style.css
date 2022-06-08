@@ -1,4 +1,8 @@
-
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 
 body {
 font-family: 'Open Sans', sans-serif;
@@ -8,10 +12,23 @@ font-family: 'Open Sans', sans-serif;
 
 }
 
+.header{
+  overflow: hidden;
+  height:600px;
+}
+
+
+
+.name{
+  font-size: 55px;
+  padding-top: 170px;
+}
+
 
 .header-image {
-    width: 300px;
-    height: 400px;
+    margin-left:-50px;
+    width:600px;
+    margin-top:-32px;
 }
 
 
@@ -26,7 +43,6 @@ font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-
     color: black;
     line-height: 1;
     margin-right: 8px;
@@ -45,6 +61,12 @@ font-family: 'Open Sans', sans-serif;
 
 
 /*About */
+
+.about{
+  background-color: #f0f0f0;
+  padding-top:40px;
+  
+}
 
 
 .about-me .content h3 {
@@ -81,6 +103,10 @@ font-family: 'Open Sans', sans-serif;
 
 
 /* ---skills */
+
+.skills{
+  width: 100%;
+}
 
 .skills .progress {
   height: 60px;
@@ -176,7 +202,7 @@ font-family: 'Open Sans', sans-serif;
 /* ===Certifications=== */
 
 .certification{
-  background:url("images/34305.png");
+  background-color:turquoise;
   border-radius: 10px;
   /* border-radius: 10px; */
 
