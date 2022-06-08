@@ -235,6 +235,31 @@ body,html {
 
 
 
+/* =====work img==== */
+
+.work-img{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  transition: 1s ease;
+ 
+}
+
+.img-content{
+  bottom: 0;
+  position: absolute;
+  visibility: hidden;
+ 
+}
+
+.work-img:hover .img-content{
+visibility: visible;
+transition: 0.3s ease;
+transform: translateY(-50px);
+
+}
+
+
 
 
 /* ====end certifications==== */
