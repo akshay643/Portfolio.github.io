@@ -17,6 +17,18 @@ body,html {
   background: transparent;
 }
 
+.download-button{
+  position: relative;
+  width: 115px;
+}
+
+
+
+.download-button:hover .text{
+  display: none;
+}
+
+
 .header {
   overflow: hidden;
   height: 600px;
@@ -168,7 +180,7 @@ body,html {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   /* margin-top: -2px; */
-  border-left: 2px solid black;
+  border-left: 2px solid white;
   position: relative;
 }
 
@@ -220,7 +232,7 @@ body,html {
 /* ===Certifications=== */
 
 .certification {
-  background-color:black;
+  background-color:#0dcaf0;
   border-radius: 10px;
   /* border-radius: 10px; */
 
@@ -244,23 +256,6 @@ body,html {
   transition: 1s ease;
  
 }
-
-.img-content{
-  bottom: 0;
-  position: absolute;
-  visibility: hidden;
- 
-}
-
-.work-img:hover .img-content{
-visibility: visible;
-transition: 0.3s ease;
-transform: translateY(-50px);
-
-}
-
-
-
 
 /* ====end certifications==== */
 
