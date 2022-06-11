@@ -313,7 +313,7 @@ body,html {
 .modal-download{
 
   width:80px;
-  height:80px;
+  height:50%;
   padding:0;
 }
 
@@ -328,7 +328,6 @@ body,html {
   position: absolute;
   left:97%;
   top:-10px;
-  padding-bottom: 30px;
 }
 
 /* # Credits */
