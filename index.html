@@ -30,12 +30,23 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#myModal").modal('show');
+        });
+    </script>
+
 
 
     <title>Akshay Thakur</title>
 </head>
 
 <body>
+    <!-- ======= -->
+
+
+    <!-- ======= -->
     <section class="bg-dark">
 
 
@@ -57,9 +68,11 @@
                         <a class="nav-item nav-link" href="">Contact</a>
                     </div>
                     <!-- <button class="btn btn-info color-white"></button> -->
-                    <button type="button" class="btn btn-info text-white rounded-5 download-button"> <a class="btn btn-info btn-sm" href="Akshay_Front_End (2).pdf"
-                            download="proposed_file_name"><i class=" text-dark  fa-solid fa-arrow-down"></i> <strong class="text text-dark">Resume</strong> </a>
-                        </button>
+                    <button type="button" class="btn btn-info text-white rounded-5 download-button"> <a
+                            class="btn btn-info btn-sm" href="Akshay_Front_End (2).pdf" download="proposed_file_name"><i
+                                class=" text-dark  fa-solid fa-arrow-down"></i> <strong
+                                class="text text-dark">Resume</strong> </a>
+                    </button>
 
 
 
@@ -88,7 +101,8 @@
 
                     <h6 class="pt-5 fw-bold" data-aos="fade-right" data-aos-delay="800">FIND ME ON</h6>
 
-                    <div class="my-2 social-links d-flex justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="800">
+                    <div class="my-2 social-links d-flex justify-content-center justify-content-lg-start"
+                        data-aos="fade-right" data-aos-delay="800">
                         <a href="#" class="twitter"><i class="fa-brands fa-youtube fa-2x"></i></a>
                         <a href="#" class="facebook"><i class="fa-brands fa-facebook fa-2x"></i> </a> <a href="#" <a
                             href="#" class="instagram"><i class="fa-brands fa-instagram fa-2x"></i></i></a>
@@ -421,7 +435,8 @@
                         <h2 class="d-block">Portfolio Website</h2>
                         <p>Descrition:HTML,CSS, JavaScript, Bootstrap</p>
 
-                        <button class="btn btn-dark"> <a  class="text-white text-decoration-none" href="https://github.com/akshay643/Portfolio.github.io">Source</a> </button>
+                        <button class="btn btn-dark"> <a class="text-white text-decoration-none"
+                                href="https://github.com/akshay643/Portfolio.github.io">Source</a> </button>
                     </div>
                 </div>
 
@@ -452,13 +467,16 @@
                     <div class="text-center">
                         <h2 class="d-block">Netflix Clone</h2>
                         <p>Descrition:HTML,CSS, JavaScript</p>
-                        <button class="btn btn-dark"> <a class="text-white text-decoration-none" href="https://github.com/akshay643/Netflix-Clone">Source</a> </button>
+                        <button class="btn btn-dark"> <a class="text-white text-decoration-none"
+                                href="https://github.com/akshay643/Netflix-Clone">Source</a> </button>
 
 
                     </div>
 
                 </div>
             </div>
+
+
 
 
 
@@ -541,14 +559,33 @@
     </section>
 
 
-
-
+    <!-- ============== -->
     <div class="credits bg-dark">
 
         Designed by <a href="#" class="text-info">Akshay Thakur</a>
     </div>
 
 
+    <!-- =====modal====== -->
+
+    <!-- Button trigger modal -->
+    <div id="myModal" class="modal fade d-none d-lg-block  align-items-center">
+        <div class=" modal-dialog modal-dialog-centered text-center width-fit-content  ">
+            <div id="body-modal " class="modal-content bg-dark align-items-center ">
+                <button type="button" class="btn-close bg-white button-close" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+
+
+                <img src="images/download.png" class="modal-download text-white" alt="">
+
+                <button class=" button-modal btn btn-dark rounded-5 btn-lg w-75 "> <strong class="h2"> <a
+                            class="text-white text-decoration-none" href="Akshay_Front_End (2).pdf">Download Resume</a>
+
+                    </strong> </button>
+
+            </div>
+        </div>
+    </div>
 
 
 
@@ -558,6 +595,7 @@
     <script>
         AOS.init();
     </script>
+
 
 
 </body>
